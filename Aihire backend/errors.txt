@@ -1,0 +1,633 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------------------------< com.aihire:backend >-------------------------
+[INFO] Building backend 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ backend ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ backend ---
+[INFO] Changes detected - recompiling the module! :source
+[INFO] Compiling 33 source files with javac [debug release 17] to target\classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[31,22] cannot find symbol
+  symbol:   method getRole()
+  location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[35,22] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[37,31] cannot find symbol
+  symbol:   method getTitle()
+  location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[38,33] cannot find symbol
+  symbol:   method getCompany()
+  location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[39,37] cannot find symbol
+  symbol:   method getDescription()
+  location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[40,40] cannot find symbol
+  symbol:   method getRequiredSkills()
+  location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[41,34] cannot find symbol
+  symbol:   method getLocation()
+  location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[42,32] cannot find symbol
+  symbol:   method getSalary()
+  location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[74,22] cannot find symbol
+  symbol:   method getRole()
+  location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[74,58] cannot find symbol
+  symbol:   method getRecruiter()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[74,98] cannot find symbol
+  symbol:   method getId()
+  location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[82,27] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.dto.JobDTOs.JobResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[83,24] cannot find symbol
+  symbol:   method getId()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[84,33] cannot find symbol
+  symbol:   method getRecruiter()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[85,35] cannot find symbol
+  symbol:   method getRecruiter()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[86,27] cannot find symbol
+  symbol:   method getTitle()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[87,29] cannot find symbol
+  symbol:   method getCompany()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[88,33] cannot find symbol
+  symbol:   method getDescription()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[89,36] cannot find symbol
+  symbol:   method getRequiredSkills()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[90,30] cannot find symbol
+  symbol:   method getLocation()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[91,28] cannot find symbol
+  symbol:   method getSalary()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[92,28] cannot find symbol
+  symbol:   method getStatus()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[93,31] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[29,49] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[33,25] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[34,34] cannot find symbol
+  symbol:   method getFullName()
+  location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[35,31] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[36,61] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[37,30] cannot find symbol
+  symbol:   method getRole()
+  location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[38,32] cannot find symbol
+  symbol:   method getSkills()
+  location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[42,56] cannot find symbol
+  symbol:   method getEmail()
+  location: variable savedUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[42,78] cannot find symbol
+  symbol:   method getId()
+  location: variable savedUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[42,97] cannot find symbol
+  symbol:   method getRole()
+  location: variable savedUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[44,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.dto.AuthDTOs.AuthResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[51,55] cannot find symbol
+  symbol:   method getEmail()
+  location: variable request of type com.aihire.backend.dto.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[54,45] cannot find symbol
+  symbol:   method getPassword()
+  location: variable request of type com.aihire.backend.dto.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[54,65] cannot find symbol
+  symbol:   method getPasswordHash()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[58,51] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[58,68] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[58,82] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[60,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.dto.AuthDTOs.AuthResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[80,28] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.dto.AuthDTOs.UserResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[81,25] cannot find symbol
+  symbol:   method getId()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[82,31] cannot find symbol
+  symbol:   method getFullName()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[83,28] cannot find symbol
+  symbol:   method getEmail()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[84,27] cannot find symbol
+  symbol:   method getRole()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[85,29] cannot find symbol
+  symbol:   method getSkills()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[86,32] cannot find symbol
+  symbol:   method getCreatedAt()
+  location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/controller/InterviewController.java:[37,84] cannot find symbol
+  symbol:   method getStatus()
+  location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewStatusUpdateRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[35,20] cannot find symbol
+  symbol:   method getScheduledBy()
+  location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[36,56] cannot find symbol
+  symbol:   method getScheduledBy()
+  location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[42,22] cannot find symbol
+  symbol:   method getRole()
+  location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[46,73] cannot find symbol
+  symbol:   method getApplicationId()
+  location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[47,109] cannot find symbol
+  symbol:   method getApplicationId()
+  location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[50,25] cannot find symbol
+  symbol:   method getJob()
+  location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[50,74] cannot find symbol
+  symbol:   method getId()
+  location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[54,40] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[57,39] cannot find symbol
+  symbol:   method getInterviewDate()
+  location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[58,39] cannot find symbol
+  symbol:   method getInterviewTime()
+  location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[59,30] cannot find symbol
+  symbol:   method getMode()
+  location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[66,20] cannot find symbol
+  symbol:   method setStatus(com.aihire.backend.entity.ApplicationStatus)
+  location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[76,25] cannot find symbol
+  symbol:   method getId()
+  location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[93,23] cannot find symbol
+  symbol:   method getScheduledBy()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[93,67] cannot find symbol
+  symbol:   method getId()
+  location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[97,18] cannot find symbol
+  symbol:   method setStatus(com.aihire.backend.entity.InterviewStatus)
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[103,33] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.dto.InterviewDTOs.InterviewResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[104,30] cannot find symbol
+  symbol:   method getId()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[105,41] cannot find symbol
+  symbol:   method getApplication()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[106,41] cannot find symbol
+  symbol:   method getApplication()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[107,36] cannot find symbol
+  symbol:   method getApplication()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[108,41] cannot find symbol
+  symbol:   method getScheduledBy()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[109,43] cannot find symbol
+  symbol:   method getScheduledBy()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[110,41] cannot find symbol
+  symbol:   method getInterviewDate()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[111,41] cannot find symbol
+  symbol:   method getInterviewTime()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[112,32] cannot find symbol
+  symbol:   method getMode()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[113,34] cannot find symbol
+  symbol:   method getStatus()
+  location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/controller/ApplicationController.java:[42,77] cannot find symbol
+  symbol:   method getStatus()
+  location: variable request of type com.aihire.backend.dto.ApplicationDTOs.StatusUpdateRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[36,20] cannot find symbol
+  symbol:   method getUserId()
+  location: variable request of type com.aihire.backend.dto.ApplicationDTOs.ApplicationRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[37,56] cannot find symbol
+  symbol:   method getUserId()
+  location: variable request of type com.aihire.backend.dto.ApplicationDTOs.ApplicationRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[43,22] cannot find symbol
+  symbol:   method getRole()
+  location: variable applicant of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[47,54] cannot find symbol
+  symbol:   method getJobId()
+  location: variable request of type com.aihire.backend.dto.ApplicationDTOs.ApplicationRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[48,16] cannot find symbol
+  symbol:   method getStatus()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[53,59] cannot find symbol
+  symbol:   method getId()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[53,78] cannot find symbol
+  symbol:   method getId()
+  location: variable applicant of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[58,55] cannot find symbol
+  symbol:   method getSkills()
+  location: variable applicant of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[58,72] cannot find symbol
+  symbol:   method getRequiredSkills()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[60,46] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[76,24] cannot find symbol
+  symbol:   method getRole()
+  location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[76,60] cannot find symbol
+  symbol:   method getRecruiter()
+  location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[76,102] cannot find symbol
+  symbol:   method getId()
+  location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[89,24] cannot find symbol
+  symbol:   method getRole()
+  location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[89,69] cannot find symbol
+  symbol:   method getId()
+  location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[106,24] cannot find symbol
+  symbol:   method getRole()
+  location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[106,68] cannot find symbol
+  symbol:   method getJob()
+  location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[106,119] cannot find symbol
+  symbol:   method getId()
+  location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[111,24] cannot find symbol
+  symbol:   method getStatus()
+  location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[115,20] cannot find symbol
+  symbol:   method setStatus(com.aihire.backend.entity.ApplicationStatus)
+  location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[179,35] cannot find symbol
+  symbol:   method builder()
+  location: class com.aihire.backend.dto.ApplicationDTOs.ApplicationResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[180,24] cannot find symbol
+  symbol:   method getId()
+  location: variable app of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[181,27] cannot find symbol
+  symbol:   method getJob()
+  location: variable app of type com.aihire.backend.entity.Application
+[INFO] 100 errors 
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.204 s
+[INFO] Finished at: 2026-06-18T10:23:46+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.11.0:compile (default-compile) on project backend: Compilation failure: Compilation failure: 
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[31,22] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[35,22] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[37,31] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[38,33] cannot find symbol
+[ERROR]   symbol:   method getCompany()
+[ERROR]   location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[39,37] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[40,40] cannot find symbol
+[ERROR]   symbol:   method getRequiredSkills()
+[ERROR]   location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[41,34] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[42,32] cannot find symbol
+[ERROR]   symbol:   method getSalary()
+[ERROR]   location: variable request of type com.aihire.backend.dto.JobDTOs.JobRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[74,22] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[74,58] cannot find symbol
+[ERROR]   symbol:   method getRecruiter()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[74,98] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[82,27] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.dto.JobDTOs.JobResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[83,24] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[84,33] cannot find symbol
+[ERROR]   symbol:   method getRecruiter()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[85,35] cannot find symbol
+[ERROR]   symbol:   method getRecruiter()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[86,27] cannot find symbol
+[ERROR]   symbol:   method getTitle()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[87,29] cannot find symbol
+[ERROR]   symbol:   method getCompany()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[88,33] cannot find symbol
+[ERROR]   symbol:   method getDescription()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[89,36] cannot find symbol
+[ERROR]   symbol:   method getRequiredSkills()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[90,30] cannot find symbol
+[ERROR]   symbol:   method getLocation()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[91,28] cannot find symbol
+[ERROR]   symbol:   method getSalary()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[92,28] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/JobService.java:[93,31] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[29,49] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[33,25] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[34,34] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[35,31] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[36,61] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[37,30] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[38,32] cannot find symbol
+[ERROR]   symbol:   method getSkills()
+[ERROR]   location: variable request of type com.aihire.backend.dto.AuthDTOs.RegisterRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[42,56] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable savedUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[42,78] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable savedUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[42,97] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable savedUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[44,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.dto.AuthDTOs.AuthResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[51,55] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable request of type com.aihire.backend.dto.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[54,45] cannot find symbol
+[ERROR]   symbol:   method getPassword()
+[ERROR]   location: variable request of type com.aihire.backend.dto.AuthDTOs.LoginRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[54,65] cannot find symbol
+[ERROR]   symbol:   method getPasswordHash()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[58,51] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[58,68] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[58,82] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[60,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.dto.AuthDTOs.AuthResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[80,28] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.dto.AuthDTOs.UserResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[81,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[82,31] cannot find symbol
+[ERROR]   symbol:   method getFullName()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[83,28] cannot find symbol
+[ERROR]   symbol:   method getEmail()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[84,27] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[85,29] cannot find symbol
+[ERROR]   symbol:   method getSkills()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/UserService.java:[86,32] cannot find symbol
+[ERROR]   symbol:   method getCreatedAt()
+[ERROR]   location: variable user of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/controller/InterviewController.java:[37,84] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewStatusUpdateRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[35,20] cannot find symbol
+[ERROR]   symbol:   method getScheduledBy()
+[ERROR]   location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[36,56] cannot find symbol
+[ERROR]   symbol:   method getScheduledBy()
+[ERROR]   location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[42,22] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[46,73] cannot find symbol
+[ERROR]   symbol:   method getApplicationId()
+[ERROR]   location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[47,109] cannot find symbol
+[ERROR]   symbol:   method getApplicationId()
+[ERROR]   location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[50,25] cannot find symbol
+[ERROR]   symbol:   method getJob()
+[ERROR]   location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[50,74] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable recruiter of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[54,40] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[57,39] cannot find symbol
+[ERROR]   symbol:   method getInterviewDate()
+[ERROR]   location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[58,39] cannot find symbol
+[ERROR]   symbol:   method getInterviewTime()
+[ERROR]   location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[59,30] cannot find symbol
+[ERROR]   symbol:   method getMode()
+[ERROR]   location: variable request of type com.aihire.backend.dto.InterviewDTOs.InterviewRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[66,20] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.aihire.backend.entity.ApplicationStatus)
+[ERROR]   location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[76,25] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[93,23] cannot find symbol
+[ERROR]   symbol:   method getScheduledBy()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[93,67] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[97,18] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.aihire.backend.entity.InterviewStatus)
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[103,33] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.dto.InterviewDTOs.InterviewResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[104,30] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[105,41] cannot find symbol
+[ERROR]   symbol:   method getApplication()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[106,41] cannot find symbol
+[ERROR]   symbol:   method getApplication()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[107,36] cannot find symbol
+[ERROR]   symbol:   method getApplication()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[108,41] cannot find symbol
+[ERROR]   symbol:   method getScheduledBy()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[109,43] cannot find symbol
+[ERROR]   symbol:   method getScheduledBy()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[110,41] cannot find symbol
+[ERROR]   symbol:   method getInterviewDate()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[111,41] cannot find symbol
+[ERROR]   symbol:   method getInterviewTime()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[112,32] cannot find symbol
+[ERROR]   symbol:   method getMode()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/InterviewService.java:[113,34] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable interview of type com.aihire.backend.entity.Interview
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/controller/ApplicationController.java:[42,77] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable request of type com.aihire.backend.dto.ApplicationDTOs.StatusUpdateRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[36,20] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable request of type com.aihire.backend.dto.ApplicationDTOs.ApplicationRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[37,56] cannot find symbol
+[ERROR]   symbol:   method getUserId()
+[ERROR]   location: variable request of type com.aihire.backend.dto.ApplicationDTOs.ApplicationRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[43,22] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable applicant of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[47,54] cannot find symbol
+[ERROR]   symbol:   method getJobId()
+[ERROR]   location: variable request of type com.aihire.backend.dto.ApplicationDTOs.ApplicationRequest
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[48,16] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[53,59] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[53,78] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable applicant of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[58,55] cannot find symbol
+[ERROR]   symbol:   method getSkills()
+[ERROR]   location: variable applicant of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[58,72] cannot find symbol
+[ERROR]   symbol:   method getRequiredSkills()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[60,46] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[76,24] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[76,60] cannot find symbol
+[ERROR]   symbol:   method getRecruiter()
+[ERROR]   location: variable job of type com.aihire.backend.entity.Job
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[76,102] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[89,24] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[89,69] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[106,24] cannot find symbol
+[ERROR]   symbol:   method getRole()
+[ERROR]   location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[106,68] cannot find symbol
+[ERROR]   symbol:   method getJob()
+[ERROR]   location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[106,119] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable currentUser of type com.aihire.backend.entity.User
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[111,24] cannot find symbol
+[ERROR]   symbol:   method getStatus()
+[ERROR]   location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[115,20] cannot find symbol
+[ERROR]   symbol:   method setStatus(com.aihire.backend.entity.ApplicationStatus)
+[ERROR]   location: variable application of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[179,35] cannot find symbol
+[ERROR]   symbol:   method builder()
+[ERROR]   location: class com.aihire.backend.dto.ApplicationDTOs.ApplicationResponse
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[180,24] cannot find symbol
+[ERROR]   symbol:   method getId()
+[ERROR]   location: variable app of type com.aihire.backend.entity.Application
+[ERROR] /C:/Users/User/OneDrive/Desktop/Aihire backend/src/main/java/com/aihire/backend/service/ApplicationService.java:[181,27] cannot find symbol
+[ERROR]   symbol:   method getJob()
+[ERROR]   location: variable app of type com.aihire.backend.entity.Application
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
