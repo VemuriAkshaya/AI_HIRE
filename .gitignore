@@ -1,0 +1,140 @@
+# ==============================================================================
+# PERFECT PRODUCTION-READY .GITIGNORE FOR FULL-STACK (REACT + SPRING BOOT)
+# Workspace: Windows OS | IDEs: VS Code, IntelliJ, Eclipse
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. NODE.JS / REACT FRONTEND (Aihire Frontend)
+# ------------------------------------------------------------------------------
+# Dependency directory
+**/node_modules/
+
+# Production build outputs
+**/dist/
+**/build/
+**/out/
+
+# Frontend log files
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# Frontend cache and compilation files
+**/.eslintcache
+**/.stylelintcache
+**/.cache/
+**/.parcel-cache/
+**/.vite/
+
+# ------------------------------------------------------------------------------
+# 2. JAVA / MAVEN / SPRING BOOT BACKEND (Aihire backend)
+# ------------------------------------------------------------------------------
+# Maven build target directory
+**/target/
+**/bin/
+
+# Compiled Java class files
+**/*.class
+
+# Java packaging outputs
+**/*.war
+**/*.ear
+**/*.zip
+**/*.tar.gz
+**/*.rar
+
+# Crash logs and heap dumps
+**/hs_err_pid*
+**/*.hprof
+
+# ------------------------------------------------------------------------------
+# 3. ENVIRONMENT VARIABLES & SECRETS
+# ------------------------------------------------------------------------------
+# Node.js environment files
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+**/.env.*.local
+
+# Spring Boot application secret properties (ignoring local/dev/prod overrides)
+**/application-local.properties
+**/application-dev.properties
+**/application-prod.properties
+**/application-secret.properties
+**/application-local.yml
+**/application-dev.yml
+**/application-prod.yml
+**/application-secret.yml
+
+# Databases and configuration secrets
+**/*.db
+**/*.sqlite
+
+# ------------------------------------------------------------------------------
+# 4. IDE CONFIGURATIONS & SETTINGS
+# ------------------------------------------------------------------------------
+# VS Code
+**/.vscode/
+!**/.vscode/extensions.json
+!**/.vscode/launch.json
+
+# IntelliJ IDEA
+**/.idea/
+**/*.iml
+**/*.iws
+**/*.ipr
+**/out/
+
+# Eclipse
+**/.classpath
+**/.project
+**/.settings/
+**/.factorypath
+
+# NetBeans
+**/nbproject/private/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
+
+# ------------------------------------------------------------------------------
+# 5. WINDOWS & SYSTEM FILES
+# ------------------------------------------------------------------------------
+# Windows thumbnail database / desktop configuration
+[Dd]esktop.ini
+[Tt]humbs.db
+[Tt]humbs.db:encryptable
+ehthumbs.db
+
+# macOS System Files (in case of cross-platform collaboration)
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ------------------------------------------------------------------------------
+# 6. LOGS, CACHE & TEMPORARY FILES
+# ------------------------------------------------------------------------------
+# Log files
+**/*.log
+**/logs/
+**/log/
+
+# Specific project-level error log found in scan
+**/errors.txt
+
+# Temporary files
+**/*.tmp
+**/*.temp
+**/*.swp
+**/*.bak
+**/*~
